@@ -1,0 +1,36 @@
+{
+  "name": "codedis-backend",
+  "version": "1.0.0",
+  "description": "Codedis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch & nodemon ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedis/codedis-backend.git"
+  },
+  "keywords": [
+    "codedis",
+    "disability",
+    "deaf",
+    "node",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Raga Subekti <rfilmriot@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codedis/codedis-backend/issues"
+  },
+  "homepage": "https://github.com/codedis/codedis-backend#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "sequelize": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "typescript": "^3.4.3"
+  }
+}
